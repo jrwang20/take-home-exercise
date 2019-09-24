@@ -18,3 +18,7 @@ java - jar takehome-0.0.1-SNAPSHOT.jar
 4. the links of this project is http://127.0.0.1:8099/upload
 5. upload the csv file, just with the same format and exact fields as normal.csv and advanced.csv
 6. submit it, and in result page you will find the duplicated data and non-duplicated data
+
+## Test
+You can download the normal.csv and advanced.csv, then upload them in the page.
+The result will like this
