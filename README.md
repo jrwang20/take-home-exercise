@@ -13,7 +13,7 @@ mvn clean package -Dmaven.test.skip=true
 4. go to the /target directory, then run the following codes to start the server
 ```Bash
 cd target/
-java - jar takehome-0.0.1-SNAPSHOT.jar
+java -jar takehome-0.0.1-SNAPSHOT.jar
 ```
 4. the links of this project is http://127.0.0.1:8099/upload
 5. upload the csv file, just with the same format and exact fields as normal.csv and advanced.csv
