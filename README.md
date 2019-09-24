@@ -7,12 +7,12 @@ This project is the take home exercise of validity software engineer intern inte
 1. git clone or download the project
 2. go to the /takehome directory, then run the following codes to package
 ```Bash
-cd /takehome
+cd takehome/
 mvn clean package -Dmaven.test.skip=true
 ```
 4. go to the /target directory, then run the following codes to start the server
 ```Bash
-cd /target
+cd target/
 java - jar takehome-0.0.1-SNAPSHOT.jar
 ```
 4. the links of this project is http://127.0.0.1:8099/upload
