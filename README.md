@@ -22,4 +22,4 @@ java - jar takehome-0.0.1-SNAPSHOT.jar
 ## Test
 You can use the normal.csv and advanced.csv in /test directory, then upload them in the page.
 The result will like this
-![result][test/resultDemo.png]
+[result][test/resultDemo.png]
