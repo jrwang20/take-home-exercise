@@ -4,7 +4,7 @@
 This project is the take home exercise of validity software engineer intern interview
 
 ## How to use
-1. git clone the project
+1. git clone or download the project
 2. go to the /takehome directory
 3. ensure the port 8099 has not been used, then run: 
 ```Bash
