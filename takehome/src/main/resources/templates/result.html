@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Results</title>
+</head>
+<body>
+
+<h1>Result of Duplicated Data</h1>
+
+<table >
+    <tr th:each="res, State : ${session.resData}">
+        <td th:text="${res.getFirstName()}"></td>
+        <td th:text="${res.getLastName()}"></td>
+        <td th:text="${res.getCompany()}"></td>
+        <td th:text="${res.getEmail()}"></td>
+        <td th:text="${res.getAddress1()}"></td>
+        <td th:text="${res.getAddress2()}"></td>
+        <td th:text="${res.getZip()}"></td>
+        <td th:text="${res.getCity()}"></td>
+        <td th:text="${res.getStateLong()}"></td>
+        <td th:text="${res.getState()}"></td>
+        <td th:text="${res.getPhone()}"></td>
+    </tr>
+</table>
+
+<br/>
+<br/>
+<a href="/upload">Upload and Dedup again</a>
+<br/>
+<br/>
+
+<h1>Result of Duplicated Data</h1>
+
+<table >
+    <tr th:each="res, State : ${session.otherData}">
+        <td th:text="${res.getFirstName()}"></td>
+        <td th:text="${res.getLastName()}"></td>
+        <td th:text="${res.getCompany()}"></td>
+        <td th:text="${res.getEmail()}"></td>
+        <td th:text="${res.getAddress1()}"></td>
+        <td th:text="${res.getAddress2()}"></td>
+        <td th:text="${res.getZip()}"></td>
+        <td th:text="${res.getCity()}"></td>
+        <td th:text="${res.getStateLong()}"></td>
+        <td th:text="${res.getState()}"></td>
+        <td th:text="${res.getPhone()}"></td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: TakeHome
+
+server:
+  port: 8099
