@@ -20,5 +20,5 @@ java - jar takehome-0.0.1-SNAPSHOT.jar
 6. submit it, and in result page you will find the duplicated data and non-duplicated data
 
 ## Test
-You can download the normal.csv and advanced.csv, then upload them in the page.
+You can use the normal.csv and advanced.csv in /test directory, then upload them in the page.
 The result will like this
